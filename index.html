@@ -5,19 +5,22 @@
 	<script src="https://www.canada.ca/etc/designs/canada/cdts/gcweb/v4_1_0/wet-boew/js/deps/jsonpointer.min.js"></script>
 	<meta charset="utf-8">
 	
-	
+	<script>
+		document.write(wet.builder.refTop({
+			"isApplication": true
+		}));
+	</script><!--[if gte IE 9 | !IE ]><!-->
 	<link rel="apple-touch-icon" sizes="57x57 72x72 114x114 144x144 150x150" class="wb-favicon"
 		href="https://www.canada.ca/etc/designs/canada/cdts/gcweb/v4_1_0/wet-boew/assets/favicon-mobile.png">
 	<link rel="stylesheet" href="https://www.canada.ca/etc/designs/canada/cdts/gcweb/v4_1_0/wet-boew/css/theme.min.css">
 	<link rel="stylesheet" href="https://www.canada.ca/etc/designs/canada/cdts/gcweb/v4_1_0/cdts/cdtsfixes.css">
-	<!-- <link rel="stylesheet" href="https://www.canada.ca/etc/designs/canada/cdts/gcweb/v4_1_0/cdts/cdtsapps.css"> -->
+	<link rel="stylesheet" href="https://www.canada.ca/etc/designs/canada/cdts/gcweb/v4_1_0/cdts/cdtsapps.css">
 
-	
 </head>
 
 <body>
-
-	<div style="border:2px solid red;"> <!-- start of search-->
+	<header aria-label="header"> 
+	<div> <!-- start of search-->
 		<div id="wb-srch" class="col-lg-offset-4 col-md-offset-4 col-sm-offset-2 col-xs-12 col-sm-5 col-md-4">
 
 		
@@ -38,7 +41,7 @@
 
 		</div> <!--end of search-->
 	</div>
-	<header aria-label="header">  
+	 
 		<div role="heading" aria-label="1"> <!-- start of header-->
 			<div class="app-bar">
 				<div class="container">
@@ -91,7 +94,7 @@
 
 			</article>
 		</div>
-		<div class="row">
+		
 			<article>
 			<div class="col-md-8" style="border: 1px solid black">
 				<p>Content C</p>
@@ -129,8 +132,9 @@
 						<td valign=top headers="sold single y2022">$780,00 </td>
 						<td valign=topheaders="sold condo y2022" >240,000</td>
 					</tr>
-					</table>	
+				</table>
  
+
 			</div>
 			</article>
 			<aside>  
@@ -145,7 +149,7 @@
 						</ul>
 				</div>
 			</aside>
-		</div>
+		
 		<div class="clear"></div>
 		<div style="border: 1px solid black">
 			Content D <br>
@@ -220,7 +224,7 @@
 								<li><a href="#">Accessibility statement</a></li>
 								<li style="list-style: none;" class="social">
 									<a href="#">
-										<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" style="border: 2px solid red">
+										<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
 											<path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48zm-48.9 158.8c.2 2.8.2 5.7.2 8.5 0 86.7-66 186.6-186.6 186.6-37.2 0-71.7-10.8-100.7-29.4 5.3.6 10.4.8 15.8.8 30.7 0 58.9-10.4 81.4-28-28.8-.6-53-19.5-61.3-45.5 10.1 1.5 19.2 1.5 29.6-1.2-30-6.1-52.5-32.5-52.5-64.4v-.8c8.7 4.9 18.9 7.9 29.6 8.3a65.447 65.447 0 0 1-29.2-54.6c0-12.2 3.2-23.4 8.9-33.1 32.3 39.8 80.8 65.8 135.2 68.6-9.3-44.5 24-80.6 64-80.6 18.9 0 35.9 7.9 47.9 20.7 14.8-2.8 29-8.3 41.6-15.8-4.9 15.2-15.2 28-28.8 36.1 13.2-1.4 26-5.1 37.8-10.2-8.9 13.1-20.1 24.7-32.9 34z"></path>
 											<title>Twitter logo</title>
 											<desc>A logo of a bird</desc>
